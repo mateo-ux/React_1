@@ -1,0 +1,8 @@
+body {
+    background-image: url('../src/componentes/img/encabezado.jpg');
+    background-size:100%; /* Ajusta la imagen para cubrir todo el área */
+    background-position: auto; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    flex-wrap: nowrap;
+  }
+

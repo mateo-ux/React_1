@@ -1,0 +1,68 @@
+.bienvenida {
+    background-color: #6c8492; /* Color de fondo */
+    color: #333; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Borde redondeado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-left: 7vw;
+    border: 2px solid #1d1b1b;
+    height: auto;
+    width: 23%;
+    top: 100%;
+    flex-wrap: nowrap;
+  }
+  
+.bienvenida p {
+  margin-top: 1px;
+    font-size: 16px; /* Tamaño del texto */
+    margin-bottom: 15px; /* Espaciado inferior */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    
+    
+  }
+  
+  .bienvenida button {
+    margin-top: 40px;
+    background-color: #5e656d; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño del texto */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cursor apuntador */
+  }
+  
+  .bienvenida button:hover {
+    background-color: #4d5056; /* Cambio de color al pasar el mouse */
+  }
+  .contenido{
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    top: 10%;
+
+  }
+
+
+.imgInicio {
+
+  width: 50%; 
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  margin-right: 1px;
+  }
+  .imgInicio img{
+    max-width: 67%;
+    border: 2px solid #1d1b1b;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}

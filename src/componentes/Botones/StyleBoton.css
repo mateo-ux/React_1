@@ -1,0 +1,34 @@
+.boton-imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 4px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    max-width: 310px;
+}
+
+.boton-imagen:hover {
+    background-color: #364249;
+}
+
+.icono {
+    width: 70px; /* Ajusta el tamaño de la imagen */
+    height: 70px; /* Ajusta el tamaño de la imagen */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+    border-radius: 50%; /* Para dar forma de burbuja */
+}
+
+.texto {
+    text-align: justify; /* Justificar el texto */
+    width: 300px; /* Ancho máximo del contenedor del texto */
+}
+
