@@ -1,5 +1,6 @@
 import React from "react";
 import "./styleContenidos.css";
+import { Link } from "react-router-dom";
 
 const ContInicio = () => {
     
@@ -9,7 +10,7 @@ const ContInicio = () => {
                 <p>Descubre una amplia selección de productos y 
                     disfruta de una experiencia de compra excepcional.
                     </p>
-            <button>Explorar Productos</button>
+                    <Link to = '/productos'><button>Explorar Productos</button></Link>
             </div>
             <div className="imgInicio">
                 <img src="src\componentes\img\contenido.gif" alt=""  />

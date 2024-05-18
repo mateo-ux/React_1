@@ -16,8 +16,7 @@
   margin-top: 1px;
     font-size: 16px; /* Tamaño del texto */
     margin-bottom: 15px; /* Espaciado inferior */
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
+    
     
     
   }
@@ -66,3 +65,116 @@
     -ms-border-radius: 35px;
     -o-border-radius: 35px;
 }
+
+.container {  /*clase ya que tiene .*/
+  position:relative;
+  display: grid;
+  z-index: 5;
+  max-width: 92rem;
+  padding: 0 10rem;
+  margin: 0 auto;
+  border: 2px solid #1d1b1b;
+  margin-top: 10%;
+  
+
+}
+
+.icon {
+  width: 180px;
+  margin-bottom: 1.7rem;
+}
+
+.header-content .container.grid-2 {
+  grid-template-columns: 2.5fr 3.5fr;
+  min-height: calc(100vh - 6rem);
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 6rem;
+  position: relative;
+  text-align: left;
+}
+
+/* /////////////////////////////////////////////// */
+
+/* Estilos para el contenedor de la cuadrícula */
+.productos-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Cuadriculas flexibles */
+  grid-gap: 20px; /* Espacio entre los elementos */
+  margin: 1.5vw; 
+  z-index: 0;
+}
+
+/* Estilos para la tarjeta de cada producto */
+.producto-card {
+  min-width: 200px; /* Tamaño mínimo de la tarjeta */
+  max-width: 400px; /* Tamaño máximo de la tarjeta */
+  border-radius: 8px;
+  width: 20vw;
+  height: 35vw;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 4px solid #1d1b1b;
+  position: relative;
+  margin: 1.7rem 0.8rem;
+  background-color: #5e656d;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1vw;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  -webkit-transition: transform 0.3s, box-shadow 0.3s;
+  -moz-transition: transform 0.3s, box-shadow 0.3s;
+  -ms-transition: transform 0.3s, box-shadow 0.3s;
+  -o-transition: transform 0.3s, box-shadow 0.3s;
+}
+.producto-card:hover {
+  transform: translateY(10px);
+  /*Movemoslacartahaciaarribacuandosepasaelcursor*/box-shadow: 0px 5px 15px;
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -o-transform: translateY(10px);
+}
+
+/* Estilos para la imagen del producto */
+.producto-img {
+  max-width: 100%;;
+ width: auto;
+ /*Imagen100%delanchodelcontenedor*/
+ max-height: 15vw;
+ border-radius: 8px;
+ -webkit-border-radius: 8px;
+ -moz-border-radius: 8px;
+ -ms-border-radius: 8px;
+ -o-border-radius: 8px;
+ margin-bottom: 10px; 
+}
+
+/* Estilos para el título del producto */
+.producto-titulo {
+  font-size: 18px; /* Tamaño del texto */
+  justify-content: center;
+  color: #e0caad;
+}
+
+/* Estilos para el precio del producto */
+.producto-precio {
+  font-weight: bold; /* Texto en negrita */
+  margin-top: 5px; /* Margen superior */
+  color: #bdb2b2;
+}
+
+.boton-tarjeta {
+  position: absolute;
+  bottom: 10px; /* Espacio desde la parte inferior de la tarjeta */
+  left: 50%; /* Centra horizontalmente el botón */
+  transform: translateX(-50%); /* Corrige la posición del botón */
+  padding: 10px 20px;  
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+

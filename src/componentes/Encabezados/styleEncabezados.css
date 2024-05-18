@@ -2,6 +2,7 @@
 .header {
  position: fixed; /* Fijar la posición */
   top: 0; /* Colocar en la parte superior */
+  z-index: 2;/* Asigna un valor de z-index */
   width: 100%; /* Ocupar todo el ancho */
   background-color: transparent; /* Color de fondo */
   color: #fff; /* Color del texto */
@@ -19,7 +20,7 @@
 
 }
 .logo span {
-  color: #ddd79d;;
+  color: #e0caad;;
   text-decoration: none;
 }
 
@@ -37,6 +38,13 @@
   margin: 0 20px;
 }
 
-.nav-link:hover {
-  text-decoration: underline;
+
+/* Estilos para el div cuando se está haciendo scroll */
+.scrolling-div {
+  background-color: #000; /* Cambia el color de fondo cuando se está haciendo scroll */
+}
+
+/* Estilos para el div cuando el scroll está en la parte superior */
+.top-div {
+  background-color: transparent; /* Fondo transparente cuando el scroll está en la parte superior */
 }

@@ -5,4 +5,29 @@
     width: 100%;
     position: absolute;
     justify-content: space-between;
+    
 }
+.icono {
+    width: 70px; /* Ajusta el tamaño de la imagen */
+    height: 70px; /* Ajusta el tamaño de la imagen */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+    border-radius: 50%; /* Para dar forma de burbuja */
+}
+
+.texto {
+    text-align: justify; /* Justificar el texto */
+    width: 300px; /* Ancho máximo del contenedor del texto */
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    max-width: 310px;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+

@@ -3,21 +3,29 @@ import Boton1 from '../Botones/Boton1.jsx';
 import "./stylePieDePagina.css";
 
 
+
 const PdpInicio = () =>{
     return(
         <div className="pieDePagina">
-            <Boton1 icon = "src\componentes\img\icon\entrega.png"
-                textIcon = "Envíos internacionales y rápidos."
-            />
-            <Boton1 icon = "src\componentes\img\icon\pago.png"
-                textIcon = "Pago rápido y seguro."
-            />
-            <Boton1 icon = "src\componentes\img\icon\regalo.png"
-                textIcon = "Indicanos si es un regalo y se empacará con más amor."
-            />
-            <Boton1 icon="src\componentes\img\icon\tienda.png"
-                textIcon = "Disponibilidad de recoger en tienda."
-            />
+            <div className="contenedor">
+            <img src="src\componentes\img\icon\entrega.png" className = "icono" />
+            <h3 className="texto-boton">Envíos internacionales y rápidos.</h3>
+            </div>
+
+            <div className="contenedor">
+            <img src="src\componentes\img\icon\pago.png" className = "icono" />
+            <h3 className="texto-boton">Pago rápido y seguro.</h3>
+            </div>
+
+            <div className="contenedor">
+            <img src="src\componentes\img\icon\regalo.png" className = "icono" />
+            <h3 className="texto-boton">Indicanos si es un regalo y se empacará con más amor.</h3>
+            </div>
+
+            <div className="contenedor">
+            <img src="src\componentes\img\icon\tienda.png" className = "icono" />
+            <h3 className="texto-boton">Disponibilidad de recoger en tienda.</h3>
+            </div>
         </div>
     )
 }

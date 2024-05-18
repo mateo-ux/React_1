@@ -1,15 +1,18 @@
 import React from "react";
 import './styleEncabezados.css';
+import { Link } from "react-router-dom";
+
 
 
 const Inicio = () =>{
         return (
             <header className="header" >
-            <a href="Encabezado.jsx" className="logo">Mateo Salgado <span>STORE</span></a>
+            <Link to="/" className="logo">Mateo Salgado <span>STORE</span></Link>
             <nav className="navbar">
-                <a href="#" className="nav-link">Inicio</a>
-                <a href="#" className="nav-link">Contacto</a>
+                <Link to="/" className="nav-link">Inicio</Link>
+                <Link to="" className="nav-link">Contacto</Link>
             </nav>
+            
             </header>
         );
         };
